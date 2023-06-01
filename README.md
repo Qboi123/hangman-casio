@@ -3,3 +3,4 @@
 **CASIO Version:** `FX 880P`
 
 The original game I made on a calculator
+*Code might be incomplete*
