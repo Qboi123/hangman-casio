@@ -242,12 +242,12 @@
 1541 IF I=1 TEN LOCATE 1,0:PRINT CHR$(252): ELSE LOCATE I,0:PRINT "↓"
 1550 NEXT I:
 1600 IF POG=0 THEN 40
-1605 LOCARE 0,2:PRINT "#=========# Pincode #==========#";
+1605 LOCATE 0,2:PRINT "#=========# Pincode #==========#";
 1610 Y-3:MZ=4:GOSUB 120
 1620  IF Sc$=Pci$ THEN 1700
 1625 LOCATE 1,3:PRINT "       FOUT (";POG-1;")";:POG=POG-1:IF POG=0 THEN DATA
-1700 LOCARE 1,3:PRINT "#=========# Pincode #==========#"
-1700 LOCARE 1,3:PRINT "                                ████████████████                "
+1700 LOCATE 1,3:PRINT "#=========# Pincode #==========#"
+1700 LOCATE 1,3:PRINT "                                ████████████████                "
 1710 LOCATE 1,3:PRITN Wrd$;:K$=INPUT$(1,@):LOCATE 0,0:PRINT " ":GOTO 40
 1800 bStr$="Pincode invoeren":GOSUB #9=G=1:NL=4:LOCATE 1,1
 1810 INPUT @4,Pci$:RETURN
